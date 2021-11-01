@@ -38,6 +38,7 @@ class HomeController extends GetxController with LoaderMixin, MessagesMixin {
             title: 'Sucesso', message: 'Clima resgatado com sucesso'),
       );
     } catch (e) {
+      print(e);
       loading(false);
 
       message(

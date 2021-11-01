@@ -10,8 +10,8 @@ class ClimateImageWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 200,
-      height: 200,
+      width: 175,
+      height: 175,
       child: Image.asset(
         _getImagePathForClime(clime),
         fit: BoxFit.fill,

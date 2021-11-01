@@ -44,8 +44,8 @@ class ClimateModel {
 
   factory ClimateModel.fromMap(Map<String, dynamic> map) {
     return ClimateModel(
-        latitude: map['coord']['lat'],
-        longitude: map['coord']['lon'],
+        latitude: map['coord']['lat'].toDouble(),
+        longitude: map['coord']['lon'].toDouble(),
         weathers: List<WeatherModel>.from(
             map['weather']?.map((x) => WeatherModel.fromMap(x))),
         temp: map['main']['temp'],

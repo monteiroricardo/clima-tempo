@@ -21,7 +21,6 @@ class ApiRepository {
         'lang': 'pt_br',
       },
     );
-
     return ClimateModel.fromMap(response.body);
   }
 }
