@@ -1,16 +1,32 @@
-# clima_e_tempo
+# CLIMA E TEMPO
 
-A new Flutter project.
+Flutter - Consumindo API de clima com Getx
 
-## Getting Started
+<img src="https://github.com/monteiroricardo/clima-tempo/blob/master/github/presentation_image.png"/>
 
-This project is a starting point for a Flutter application.
+## Como utilizar
 
-A few resources to get you started if this is your first Flutter project:
+### Código
+  
+  Para obter o código dessa solução basta clonar o repositório ou baixar o arquivo ZIP disponível para download.
+  > OBS: É necessário uma chave de acesso para se comunicar a API.
+  
+## Tecnologias utilizadas
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Gerais
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-  [VS code](https://code.visualstudio.com/)
+-  [Android Studio](https://developer.android.com/studio)
+
+### Front-end 
+  
+-  [Flutter](https://flutter.dev/)
+    * [Font Awesome Icons](https://pub.dev/packages/font_awesome_flutter)
+    * [GetX](https://pub.dev/packages/get)
+    * [Flutter Dotenv](https://pub.dev/packages/flutter_dotenv)
+    * [Google Fonts](https://pub.dev/packages/google_fonts)
+    * [Shimmer](https://pub.dev/packages/shimmer)
+-  [Dart](https://dart.dev/)
+  
+
+Feito com ♥ por Ricardo Monteiro  [Entrar em contato!](https://www.linkedin.com/in/ricardohmonteiro/)
